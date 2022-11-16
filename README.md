@@ -18,7 +18,12 @@
 
 
 ### Demo Video 
-* [[Youtube](https://youtu.be/AgYjh-pfUT0)]
+The tutorial for this paper can be found by cliking the image below or [[Youtube](https://youtu.be/AgYjh-pfUT0)]: 
+<p align="center">
+  <a href="https://youtu.be/AgYjh-pfUT0">
+    <img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/dataset_logo.jpg" alt="HARDVS_DemoVideo" width="350px"/>
+  </a>
+</p>
 
 
 ### Dataset Download 
