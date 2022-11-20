@@ -7,7 +7,7 @@
 ------
 
 <p align="center">
-  <a href="#Project">Project</a> •
+  <a href="https://sites.google.com/view/hardvs/">Project</a> •
   <a href="https://arxiv.org/abs/2111.01998">Paper</a> • 
   <a href="#Dataset">Dataset</a> •
   <a href="#citation">Citation</a> •
