@@ -31,7 +31,7 @@ pip3 install -e .
     CUDA_VISIBLE_DEVICES=0 python tools/train.py configs/recognition/hardvs_ESTF/hardvs_ESTF.py --work-dir path_to_checkpoint --validate --seed 0 --deterministic --gpu-ids=0
 
     # test
-    CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/recognition/puke_SNNCNN/puke_SNNCNN.py  path_to_checkpoint --eval top_k_accuracy
+    CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/recognition/hardvs_ESTF/hardvs_ESTF.py  path_to_checkpoint --eval top_k_accuracy
 
 ```
 
