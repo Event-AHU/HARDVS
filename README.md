@@ -1,19 +1,6 @@
 # HARDVS
 A large-scale benchmark dataset for Human Activity Recognition with Dynamic Vision Sensors
 
-[Revisiting Color-Event based Tracking: A Unified Network, Dataset, and Metric](https://arxiv.org/abs/2211.11010), Chuanming Tang, Xiao Wang, Ju Huang, Bo Jiang, Lin Zhu, Jianlin Zhang, Yaowei Wang, Yonghong Tian 
-[[Paper](https://arxiv.org/abs/2211.11010)] 
-[[DemoVideo](https://youtu.be/_ROv09rvi2k)] 
-[[Project](https://sites.google.com/view/coesot/)]
-
-
-
-## TODO List 
-- [x] Paper (arXiv) release (2022-12-01)
-- [x] COESOT dataset release (2022-12-01)
-- [x] Evaluation Toolkit release (2022-12-01)
-- [x] Source Code release (2022-12-01)
-- [x] Tracking Models release (2022-12-01)
 
 
 ### Demo Video: 
