@@ -1,5 +1,19 @@
-# HARDVS
-A large-scale benchmark dataset for Human Activity Recognition with Dynamic Vision Sensors
+<div align="center">
+
+<img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/HARDVS_logo.png" width="350px">
+  
+**HARDVS: Revisiting Human Activity Recognition with Dynamic Vision Sensors**
+
+------
+
+<p align="center">
+  <a href="https://sites.google.com/view/hardvs/">Project</a> •
+  <a href="https://arxiv.org/abs/2211.09648">Paper</a> • 
+  <a href="https://youtu.be/AgYjh-pfUT0">Demo</a> •
+</p>
+
+</div>
+
 
 
 
@@ -11,7 +25,7 @@ A large-scale benchmark dataset for Human Activity Recognition with Dynamic Visi
 * [[Baidu](链接：链接：https://pan.baidu.com/s/1OhlhOBHY91W2SwE6oWjDwA?pwd=1234 
 提取码：1234 ] 
 
-Install env
+### Environment 
 ```
 conda create -n event python=3.8 pytorch=1.10 cudatoolkit=11.3 torchvision -c pytorch -y
 conda activate event
