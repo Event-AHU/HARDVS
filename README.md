@@ -20,7 +20,8 @@
 ### Demo Video: 
 * [[YouTube](https://youtu.be/_ROv09rvi2k)]
 
-<img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/HARDVS_all_samples.jpg" width="500px">
+<div align="center">
+<img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/HARDVS_all_samples.jpg" width="700px">
 
 
 
