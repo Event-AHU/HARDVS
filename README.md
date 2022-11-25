@@ -51,7 +51,7 @@ pip3 install -e .
 
 
 ### Citation: 
-If you find this work useful for your research, please cite the following paper and give us a star.  
+If you find this work useful for your research, please cite the following paper and give us a :star2:.  
 ```bibtex
 @article{wang2022hardvs,
   title={HARDVS: Revisiting Human Activity Recognition with Dynamic Vision Sensors},
