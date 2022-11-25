@@ -53,14 +53,12 @@ pip3 install -e .
 
 ### Citation: 
 ```bibtex
-@misc{https://doi.org/10.48550/arxiv.2211.09648,
-  title = {HARDVS: Revisiting Human Activity Recognition with Dynamic Vision Sensors},
-  url = {https://arxiv.org/abs/2211.09648},
-  author = {Wang, Xiao and Wu, Zongzhen and Jiang, Bo and Bao, Zhimin and Zhu, Lin and Li, Guoqi and Wang, Yaowei and Tian, Yonghong},
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), Artificial Intelligence (cs.AI), Neural and Evolutionary Computing (cs.NE), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {arXiv.org perpetual, non-exclusive license}
+@article{wang2022hardvs,
+  title={HARDVS: Revisiting Human Activity Recognition with Dynamic Vision Sensors},
+  author={Wang, Xiao and Wu, Zongzhen and Jiang, Bo and Bao, Zhimin and Zhu, Lin and Li, Guoqi and Wang, Yaowei and Tian, Yonghong},
+  journal={arXiv preprint arXiv:2211.09648},
+  url={https://arxiv.org/abs/2211.09648}, 
+  year={2022}
 }
 ```
 
