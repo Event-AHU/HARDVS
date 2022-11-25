@@ -20,6 +20,9 @@
 ### Demo Video: 
 * [[YouTube](https://youtu.be/_ROv09rvi2k)]
 
+<img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/HARDVS_all_samples.jpg" width="500px">
+
+
 
 ### Dataset Download: 
 * [[Baidu](链接：链接：https://pan.baidu.com/s/1OhlhOBHY91W2SwE6oWjDwA?pwd=1234 
