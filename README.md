@@ -62,7 +62,10 @@ pip3 install -e .
 ```
 
 ### Our Proposed Approach 
-<img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/spatialtempHAR.jpg" width="700px" align="center">
+<img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/spatialtempHAR.jpg" width="700px" align="center"> 
+
+**An overview of our proposed ESTF framework for event-based human action recognition.** It transforms the event streams into spatial and temporal tokens and learns the dual features using multi-head self-attention layers. Further, a FusionFormer is proposed to realize message passing between the spatial and temporal features. The aggregated features are added with dual features as the input for subsequent TF and SF blocks, respectively. The outputs will be concatenated and fed into MLP layers for action prediction.
+
 
 ### Train & Test & Evaluation
 ```
