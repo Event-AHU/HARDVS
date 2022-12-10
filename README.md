@@ -14,16 +14,16 @@
 
 </div>
 
-### Paper: 
+### Paper
 Wang, Xiao and Wu, Zongzhen and Jiang, Bo and Bao, Zhimin and Zhu, Lin and Li, Guoqi and Wang, Yaowei and Tian, Yonghong. "**HARDVS: Revisiting Human Activity Recognition with Dynamic Vision Sensors.**" arXiv preprint arXiv:2211.09648 (2022). 
 
-### Abstract: 
+### Abstract
 The main streams of human activity recognition (HAR) algorithms are developed based on RGB cameras which are suffered from illumination, fast motion, privacy-preserving, and large energy consumption. Meanwhile, the biologically inspired event cameras attracted great interest due to their unique features, such as high dynamic range, dense temporal but sparse spatial resolution, low latency, low power, etc. As it is a newly arising sensor, even there is no realistic large-scale dataset for HAR. Considering its great practical value, in this paper, we propose a large-scale benchmark dataset to bridge this gap, termed HARDVS, which contains 300 categories and more than 100K event sequences. We evaluate and report the performance of multiple popular HAR algorithms, which provide extensive baselines for future works to compare. More importantly, we propose a novel spatial-temporal feature learning and fusion framework, termed ESTF, for event stream based human activity recognition. It first projects the event streams into spatial and temporal embeddings using StemNet, then, encodes and fuses the dual-view representations using Transformer networks. Finally, the dual features are concatenated and fed into a classification head for activity prediction. Extensive experiments on multiple datasets fully validated the effectiveness of our model. 
 
 <img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/eventcompare.jpg" width="700px" align="center">
 
 
-### Demo Video: 
+### Demo Video
 * [[YouTube](https://youtu.be/_ROv09rvi2k)]
 
 
@@ -34,7 +34,7 @@ The main streams of human activity recognition (HAR) algorithms are developed ba
 
 
 
-### Dataset Download: 
+### Dataset Download
 
 <img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/compareEventdatasets.png" width="700px" align="center">
 
@@ -78,7 +78,9 @@ pip3 install -e .
 
 
 
-### Citation: 
+
+
+### Citation
 If you find this work useful for your research, please cite the following paper and give us a :star2:.  
 ```bibtex
 @article{wang2022hardvs,
@@ -89,4 +91,16 @@ If you find this work useful for your research, please cite the following paper 
   year={2022}
 }
 ```
+
+
+### Acknowledgement 
+
+* **MMAction2**: [https://github.com/open-mmlab/mmaction2](https://github.com/open-mmlab/mmaction2) 
+
+
+
+
+
+
+
 
