@@ -28,7 +28,7 @@
 ### Dataset Download: 
 * [Event Images] 链接：https://pan.baidu.com/s/1OhlhOBHY91W2SwE6oWjDwA?pwd=1234    提取码：1234  
 
-* [Compact Event file] 百度网盘链接： 链接：https://pan.baidu.com/s/1iw214Aj5ugN-arhuxjmfOw?pwd=1234 提取码：1234  
+* [Compact Event file] 链接：https://pan.baidu.com/s/1iw214Aj5ugN-arhuxjmfOw?pwd=1234 提取码：1234  
 
 * [Raw Event file] To be updated 
 
