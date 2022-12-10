@@ -61,7 +61,10 @@ pip3 install -e .
 
 ```
 
-## Train & Test & Evaluation
+### Our Proposed Approach 
+<img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/spatialtempHAR.jpg" width="700px" align="center">
+
+### Train & Test & Evaluation
 ```
 # train
   CUDA_VISIBLE_DEVICES=0 python tools/train.py configs/recognition/hardvs_ESTF/hardvs_ESTF.py --work-dir path_to_checkpoint --validate --seed 0 --deterministic --gpu-ids=0
