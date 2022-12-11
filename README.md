@@ -95,7 +95,6 @@ If you find this work useful for your research, please cite the following paper 
 
 ### Acknowledgement and Other Useful Materials 
 * **MMAction2**: [https://github.com/open-mmlab/mmaction2](https://github.com/open-mmlab/mmaction2) 
-
 * **SpikingJelly**: [https://github.com/fangwei123456/spikingjelly](https://github.com/fangwei123456/spikingjelly)
 
 
