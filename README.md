@@ -1,3 +1,7 @@
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2211.09648)
+[![GitHub Stars](https://img.shields.io/github/stars/Nightmare-n/GD-MAE?style=social)](https://github.com/Event-AHU/HARDVS)
+![visitors](https://github.com/Event-AHU/HARDVS)
+
 <div align="center">
 
 <img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/HARDVS_logo.png" width="350px">
