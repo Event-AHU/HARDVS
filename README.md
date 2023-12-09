@@ -26,6 +26,7 @@ The main streams of human activity recognition (HAR) algorithms are developed ba
 
 
 ### News 
+* :fire: [2023.12.09] Our paper is accepted by AAAI-2024 !!!
 * :fire: [2023.05.29] The class label (i.e., category name) is available at [[HARDVS_300_class.txt](https://github.com/Event-AHU/HARDVS/blob/main/HARDVS_300_class.txt)]
 * :fire: [2022.12.14] HARDVS dataset is integrated into the SNN toolkit [[SpikingJelly](https://github.com/fangwei123456/spikingjelly/blob/master/spikingjelly/datasets/hardvs.py)]  
 
