@@ -14,7 +14,7 @@
 </div>
 
 ### Paper
-Wang, Xiao and Wu, Zongzhen and Jiang, Bo and Bao, Zhimin and Zhu, Lin and Li, Guoqi and Wang, Yaowei and Tian, Yonghong. "**HARDVS: Revisiting Human Activity Recognition with Dynamic Vision Sensors.**" arXiv preprint arXiv:2211.09648 (2022). [[arXiv](https://arxiv.org/pdf/2211.09648)] [[Demovideo]()] 
+Wang, Xiao and Wu, Zongzhen and Jiang, Bo and Bao, Zhimin and Zhu, Lin and Li, Guoqi and Wang, Yaowei and Tian, Yonghong. "**HARDVS: Revisiting Human Activity Recognition with Dynamic Vision Sensors.**" arXiv preprint arXiv:2211.09648 (2022). [[arXiv](https://arxiv.org/pdf/2211.09648)] [[Demovideo](https://youtu.be/AZsbCAfYzac?si=XLNDwgBqiSOcdJ5i)]
 
 
 
