@@ -136,12 +136,8 @@ class ESTF(nn.Module):
         self.ls9 = LayerScale(dim, init_values=init_values) if init_values else nn.Identity()
         self.ls10 = LayerScale(dim, init_values=init_values) if init_values else nn.Identity()
 
-
-        # NOTE: drop path for stochastic depth, we shall see if this is better than dropout here
         self.drop_path1 = DropPath(drop_path) if drop_path > 0. else nn.Identity()
         mlp_hidden_dim = int(dim * mlp_ratio)
-
-        self.mlp_voxel = Mlp(in_features=dim, hidden_features=mlp_hidden_dim, act_layer=nn.GELU, drop=drop)
 
         self.mlp1 = Mlp(in_features=temporal_dim, hidden_features=int(temporal_dim * mlp_ratio), act_layer=nn.GELU, drop=drop)
         self.mlp2 = Mlp(in_features=spatial_dim, hidden_features=int(spatial_dim * mlp_ratio), act_layer=nn.GELU, drop=drop)
@@ -152,42 +148,16 @@ class ESTF(nn.Module):
 
         self.drop_path2 = DropPath(drop_path) if drop_path > 0. else nn.Identity()
         embed_dim=dim
-        self.num_tokens = 1
         drop_rate = 0.
         self.clip_len = clip_len
         
-        self.patch_embed1 = PatchEmbed(
-            img_size=240, patch_size=30, in_chans=3, embed_dim=128)
-        # num_patches = self.patch_embed.num_patches
-
-        self.patch_embed2 = PatchEmbed(
-            img_size=240, patch_size=60, in_chans=3, embed_dim=256)
-        self.conv_spatial= conv_ac(self.batchNorm, in_planes=256, out_planes=256, kernel_size=4, stride=2, padding=0)
-        
-        self.cls_token = nn.Parameter(torch.zeros(1, 1, embed_dim))
-        self.cls_token_voxel = nn.Parameter(torch.zeros(1, 1, embed_dim))
-
         self.pos_embed = nn.Parameter(torch.zeros(1, self.clip_len, temporal_dim))
-
         self.pos_embed_spatial = nn.Parameter(torch.zeros(1, 16, spatial_dim))
-
-        self.voxel_feature_down = nn.Conv2d(in_channels=64,out_channels=64,kernel_size=4,stride=2,padding=1)
         self.pos_drop = nn.Dropout(p=drop_rate)
 
-
-        self.x_trans_outdeconv1 = nn.ConvTranspose2d(in_channels=256,out_channels=72,kernel_size=4,stride=2,padding=1)
-        self.x_trans_outdeconv_1 = nn.ConvTranspose2d(in_channels=72, out_channels=72, kernel_size=1, stride=1, padding=0, bias=False)#4
-        self.x_trans_outdeconv2 = deconv(self.batchNorm, 72, 72)
-        # self.x_trans_outdeconv3 = deconv(self.batchNorm, 81, 81)
-        # self.event_conv2d = nn.Conv2d(in_channels=1041,out_channels=32,kernel_size=5,stride=4,padding=0)
-        self.event_conv2d = conv_ac(self.batchNorm, in_planes=72, out_planes=36, kernel_size=4, stride=2, padding=1)
-        # self.resnet_18 = ResNet(depth=18, in_channels=3, norm_eval=False,pretrained=True)
         self.resnet18_feature_extractor = torchvision_resnet.resnet18(pretrained = True)
-
         self.res_out_temporal_conv2d = conv_s_p(self.batchNorm, in_planes=512, out_planes=16, kernel_size=4, stride=2,padding=1)
         self.res_out_spatial_conv2d = conv_s_p(self.batchNorm, in_planes=512, out_planes=256, kernel_size=4, stride=2,padding=1)
-
-
 
         self.pretrained = pretrained
         self.init_std = init_std
@@ -228,9 +198,7 @@ class ESTF(nn.Module):
  
         res_img = F.interpolate(input, size = [self.clip_len, 240, 240], mode='trilinear') #torch.Size([50, 3,8, 240, 240])
         res_temporal_img = res_img.permute(0,2,1,3,4).reshape(self.clip_len*B,3,240, 240)   #rch.Size([400, 3, 240, 240])
-        # res_spatial_img = res_img[:,:,self.clip_len-1,:,:]    #torch.Size([50, 3, 240, 240])
 
-        # spatial_temporal_input = self.resnet18_feature_extractor(res_temporal_img)#torch.Size([400, 512, 8, 8])
         spatial_temporal_input = self.resnet18_feature_extractor(res_temporal_img)#torch.Size([400, 512, 8, 8])
     
         # ##################################################################
