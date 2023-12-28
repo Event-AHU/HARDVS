@@ -70,7 +70,7 @@ pip3 install -e .
 ```
 Details of each package: 
 ****
-<img src="[https://github.com/Event-AHU/HARDVS/blob/main/figures/HARDVS_logo.png](https://github.com/Event-AHU/HARDVS/assets/103302166/2ceca6b7-cf15-4abf-9a3c-9a410af6d124)" >
+<img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/HARDVS_logo.png" >
 
 
 ### Our Proposed Approach 
