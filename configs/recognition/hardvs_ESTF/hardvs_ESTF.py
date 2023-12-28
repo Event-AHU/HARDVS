@@ -1,12 +1,11 @@
 _base_ = '../../_base_/models/hardvs_ESTF.py'
 
-# ##ncaltech101
 dataset_type = 'RawframeDataset'
-data_root = 'path'
-data_root_val = 
-ann_file_train = 
-ann_file_val = 
-ann_file_test =
+data_root = '.../hardvsrawframes/'
+data_root_val = '.../hardvsrawframes/'
+ann_file_train ='.../train_label.txt'
+ann_file_val = '.../val_label.txt'
+ann_file_test ='.../test_label.txt'
 
 img_norm_cfg = dict(mean=[104, 117, 128], std=[1, 1, 1], to_bgr=False)
 
