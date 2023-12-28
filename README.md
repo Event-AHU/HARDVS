@@ -67,11 +67,11 @@ mim install mmpose  # optional
 pip3 install -e .
 
 
+```
 Details of each package: 
 ****
-![image](https://github.com/Event-AHU/HARDVS/assets/103302166/d9ce84c6-e336-4f1a-8079-8f6f0ac2bc9a)
+<img src="[https://github.com/Event-AHU/HARDVS/blob/main/figures/HARDVS_logo.png](https://github.com/Event-AHU/HARDVS/assets/103302166/a45e73ff-89cc-46a9-8166-311853bb2484)" width="350px">
 
-```
 
 ### Our Proposed Approach 
 <img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/spatialtempHAR.jpg" width="800px" align="center"> 
