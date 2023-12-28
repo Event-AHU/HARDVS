@@ -66,6 +66,11 @@ mim install mmdet  # optional
 mim install mmpose  # optional
 pip3 install -e .
 
+
+Details of each package: 
+****
+![image](https://github.com/Event-AHU/HARDVS/assets/103302166/d9ce84c6-e336-4f1a-8079-8f6f0ac2bc9a)
+
 ```
 
 ### Our Proposed Approach 
