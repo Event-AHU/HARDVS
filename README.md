@@ -64,8 +64,6 @@ pip3 install openmim
 mim install mmcv-full
 mim install mmdet  # optional
 mim install mmpose  # optional
-git clone https://github.com/open-mmlab/mmaction2.git
-cd mmaction2
 pip3 install -e .
 
 ```
