@@ -68,8 +68,9 @@ pip3 install -e .
 ```
 
 
-****
+
 Details of each package: 
+
 <img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/package.jpg" 
   width="400px" >
 
