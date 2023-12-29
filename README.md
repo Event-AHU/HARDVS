@@ -65,11 +65,11 @@ mim install mmcv-full
 mim install mmdet  # optional
 mim install mmpose  # optional
 pip3 install -e .
-
-
 ```
-Details of each package: 
+
+
 ****
+Details of each package: 
 <img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/package.jpg" 
   width="400px" >
 
