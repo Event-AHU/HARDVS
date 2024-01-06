@@ -51,9 +51,11 @@ The main streams of human activity recognition (HAR) algorithms are developed ba
 
 
 * **Representative samples of HARDVS can be found below:**
-<img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/HARDVS_all_samples.jpg" width="700" align="center">
-
-
+<p align="center">
+  <a href="">
+    <img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/HARDVS_all_samples.jpg" alt="Tutorials" width="700"/>
+  </a>
+</p>
 
 
 
