@@ -32,8 +32,11 @@ The main streams of human activity recognition (HAR) algorithms are developed ba
  
 
 
-### Demo Video
-* [[YouTube](https://youtu.be/_ROv09rvi2k)]
+### Demo Videos 
+
+* [[Demo for Dataset](https://youtu.be/_ROv09rvi2k)]
+
+* [[Video Tutorial](https://youtu.be/OvE53dJWzoo?si=BEHpiuqpNURV3JaG)] 
 
 
 <img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/HARDVS_all_samples.jpg" width="800px" align="center">
