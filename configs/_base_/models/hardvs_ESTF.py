@@ -18,15 +18,13 @@ model = dict(
         drop=0., 
         attn_drop=0., 
         init_values=1e-5,
-        drop_path=0., 
-        to_device="cuda:0",
+        drop_path=0.
         ),
 
     cls_head=dict(
         type='I3DHead',
         # num_classes=1000,
-        # num_classes=300,
-        num_classes=101,
+        num_classes=300,
         # in_channels=4096,
         in_channels=3072,
         spatial_type=None,
