@@ -65,11 +65,18 @@ The main streams of human activity recognition (HAR) algorithms are developed ba
 <img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/compareEventdatasets.png" width="800px" align="center">
 
 
-* [Event Images] 链接：https://pan.baidu.com/s/1OhlhOBHY91W2SwE6oWjDwA?pwd=1234    提取码：1234  
+* **Download from Baidu Disk**: 
+```
+  [Event Images] 链接：https://pan.baidu.com/s/1OhlhOBHY91W2SwE6oWjDwA?pwd=1234    提取码：1234
+  [Compact Event file] 链接：https://pan.baidu.com/s/1iw214Aj5ugN-arhuxjmfOw?pwd=1234 提取码：1234
+  [Raw Event file] To be updated 
+```
 
-* [Compact Event file] 链接：https://pan.baidu.com/s/1iw214Aj5ugN-arhuxjmfOw?pwd=1234 提取码：1234  
+* **Download from DropBox:**
+```
+  To be updated ... 
+```
 
-* [Raw Event file] To be updated 
 
 
 
