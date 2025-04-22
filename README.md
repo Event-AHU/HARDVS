@@ -4,7 +4,7 @@
 
 <img src="https://github.com/Event-AHU/HARDVS/blob/HARDVSv2/pictures/HARDVSv2_log.png" width="350px">
   
-**A Multi-modal Heat Conduction Model and A Benchmark Dataset RGB-Event based HAR**
+**A Multi-modal Heat Conduction Model and A Benchmark Dataset for RGB-Event based HAR**
 
 ------
 
