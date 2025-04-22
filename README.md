@@ -23,15 +23,10 @@ Shiao Wang, Xiao Wang, Bo Jiang, Lin Zhu, Guoqi Li, Yaowei Wang, Yonghong Tian, 
 ### Abstract
 Human Activity Recognition (HAR) has long been a fundamental research direction in the field of computer vision. Previous studies have primarily relied on traditional RGB cameras to achieve high-performance activity recognition. However, the challenging factors in real-world scenarios, such as insufficient lighting and rapid movements, inevitably degrade the performance of RGB cameras. To address these challenges, biologically inspired event cameras offer a promising solution to overcome the limitations of traditional RGB cameras. In this work, we rethink human activity recognition by combining the RGB and event cameras. The first contribution is the proposed large-scale multi-modal RGB-Event human activity recognition benchmark dataset, termed HARDVS 2.0, which bridges the dataset gaps. It contains 300 categories of everyday real-world actions with a total of 107,646 paired videos covering various challenging scenarios. Inspired by the physics-informed heat conduction model, we propose a novel multi-modal heat conduction operation framework for effective activity recognition, termed MMHCO-HAR. More in detail, given the RGB frames and event streams, we first extract the feature embeddings using a stem network. Then, multi-modal Heat Conduction blocks are designed to fuse the dual features, the key module of which is the multi-modal Heat Conduction Operation (HCO) layer. We integrate RGB and event embeddings through a multi-modal DCT-IDCT layer while adaptively incorporating the thermal conductivity coefficient via FVEs (Frequency Value Embeddings) into this module. After that, we propose an adaptive fusion module based on a policy routing strategy for high-performance classification. We conduct comprehensive experiments comparing our proposed method with baseline methods on the HARDVS 2.0 dataset and other public datasets. These results demonstrate that our method consistently performs well, validating its effectiveness and robustness.
 
-<img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/eventcompare.jpg" width="800px" align="center"> 
+<img src="https://github.com/Event-AHU/HARDVS/blob/HARDVSv2/pictures/first_image.png" width="800px" align="center"> 
 
 
 ### News 
-* :fire: [2023.12.09] Our paper is accepted by AAAI-2024 !!!
-* :fire: [2023.05.29] The class label (i.e., category name) is available at [[HARDVS_300_class.txt](https://github.com/Event-AHU/HARDVS/blob/main/HARDVS_300_class.txt)]
-* :fire: [2022.12.14] HARDVS dataset is integrated into the SNN toolkit [[SpikingJelly](https://github.com/fangwei123456/spikingjelly/blob/master/spikingjelly/datasets/hardvs.py)]  
-
- 
 
 
 ### Demo Videos 
