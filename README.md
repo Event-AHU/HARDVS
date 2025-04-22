@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://github.com/Event-AHU/HARDVS/blob/HARDVSv2/pictures/hardvsv2_log.png" width="350px">
+<img src="https://github.com/Event-AHU/HARDVS/blob/HARDVSv2/pictures/HARDVSv2_log.png" width="350px">
   
 **Human Activity Recognition using RGB-Event based Sensors: A Multi-modal Heat Conduction Model and A Benchmark Dataset**
 
