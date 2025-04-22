@@ -1,10 +1,10 @@
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2211.09648)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2504.05830)
 
 <div align="center">
 
-<img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/HARDVS_logo.png" width="350px">
+<img src="https://github.com/Event-AHU/HARDVS/blob/HARDVSv2/pictures/hardvsv2_log.png" width="350px">
   
-**HARDVS: Revisiting Human Activity Recognition with Dynamic Vision Sensors**
+**Human Activity Recognition using RGB-Event based Sensors: A Multi-modal Heat Conduction Model and A Benchmark Dataset**
 
 ------
 
