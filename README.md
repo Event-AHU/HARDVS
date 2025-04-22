@@ -61,6 +61,8 @@ mim install mmcv
 pip install -e .
 ```
 
+**Details of each package:**
+
 
 ### Our Proposed Approach 
 <img src="https://github.com/Event-AHU/HARDVS/blob/HARDVSv2/pictures/HARDVS_extension_framework.jpg" width="800px" align="center"> 
