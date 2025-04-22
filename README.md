@@ -71,10 +71,10 @@ pip3 install -e .
 ### Train & Test & Evaluation
 ```
 # train
-  CUDA_VISIBLE_DEVICES=0 python tools/train.py configs/recognition/hardvs_ESTF/hardvs_ESTF.py --work-dir path_to_checkpoint --validate --seed 0 --deterministic --gpu-ids=0
+  python tools/train.py configs/recognition/mmhco/mmhco.py --seed 0 --deterministic --work-dir work_dirs/mmhco_train
 
 # test
-  CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/recognition/hardvs_ESTF/hardvs_ESTF.py  path_to_checkpoint --eval top_k_accuracy
+  python tools/test.py configs/recognition/mmhco/mmhco.py  path_to_checkpoint --eval top_k_accuracy
 ```
 
 
@@ -84,12 +84,11 @@ pip3 install -e .
 ### Citation
 If you find this work useful for your research, please cite the following paper and give us a :star2:.  
 ```bibtex
-@article{wang2022hardvs,
-  title={HARDVS: Revisiting Human Activity Recognition with Dynamic Vision Sensors},
-  author={Wang, Xiao and Wu, Zongzhen and Jiang, Bo and Bao, Zhimin and Zhu, Lin and Li, Guoqi and Wang, Yaowei and Tian, Yonghong},
-  journal={arXiv preprint arXiv:2211.09648},
-  url={https://arxiv.org/abs/2211.09648}, 
-  year={2022}
+@article{wang2025human,
+  title={Human Activity Recognition using RGB-Event based Sensors: A Multi-modal Heat Conduction Model and A Benchmark Dataset},
+  author={Wang, Shiao and Wang, Xiao and Jiang, Bo and Zhu, Lin and Li, Guoqi and Wang, Yaowei and Tian, Yonghong and Tang, Jin},
+  journal={arXiv preprint arXiv:2504.05830},
+  year={2025}
 }
 ```
 
