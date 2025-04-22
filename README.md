@@ -62,6 +62,7 @@ pip install -e .
 ```
 
 **Details of each package:**
+
 <img src="https://github.com/Event-AHU/HARDVS/blob/HARDVSv2/pictures/package.png" 
   width="400px" >
 
