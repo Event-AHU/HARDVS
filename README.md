@@ -14,8 +14,9 @@
 </div>
 
 ### Paper
-Shiao Wang, Xiao Wang, Bo Jiang, Lin Zhu, Guoqi Li, Yaowei Wang, Yonghong Tian, Jin Tang. "**Human Activity Recognition using RGB-Event based Sensors: A Multi-modal Heat Conduction Model and A Benchmark Dataset.**" arXiv preprint 	arXiv:2504.05830 (2025). 
-  [[arXiv](https://arxiv.org/abs/2504.05830)] 
+Shiao Wang, Xiao Wang, Bo Jiang, Lin Zhu, Guoqi Li, Yaowei Wang, Yonghong Tian, Jin Tang. 
+"**Human Activity Recognition using RGB-Event based Sensors: A Multi-modal Heat Conduction Model and A Benchmark Dataset.**
+" arXiv preprint 	arXiv:2504.05830 (2025).  [[arXiv](https://arxiv.org/abs/2504.05830)] 
 
 
 
