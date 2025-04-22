@@ -53,13 +53,12 @@ Human Activity Recognition (HAR) has long been a fundamental research direction 
 
 ### Environment 
 ```
-conda create -n event python=3.8 pytorch=1.10 cudatoolkit=11.3 torchvision -c pytorch -y
-conda activate event
-pip3 install openmim
-mim install mmcv-full
-mim install mmdet  # optional
-mim install mmpose  # optional
-pip3 install -e .
+conda create -n mmhco python=3.8 pytorch=1.12.1 cudatoolkit=11.3 torchvision -c pytorch -y
+conda activate mmhco
+pip install -U openmim
+mim install mmengine
+mim install mmcv
+pip install -e .
 ```
 
 
