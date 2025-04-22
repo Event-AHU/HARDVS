@@ -29,7 +29,7 @@ Human Activity Recognition (HAR) has long been a fundamental research direction 
 ### News 
 
 
-### Dataset Download
+### HAR Datasets
 
 <img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/compareEventdatasets.png" width="800px" align="center">
 
