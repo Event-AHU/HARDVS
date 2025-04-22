@@ -14,10 +14,8 @@
 </div>
 
 ### Paper
-Wang, Xiao and Wu, Zongzhen and Jiang, Bo and Bao, Zhimin and Zhu, Lin and Li, Guoqi and Wang, Yaowei and Tian, Yonghong. "**HARDVS: Revisiting Human Activity Recognition with Dynamic Vision Sensors.**" arXiv preprint arXiv:2211.09648 (2022). 
-  [[arXiv](https://arxiv.org/pdf/2211.09648)] 
-  [[Demovideo](https://youtu.be/AZsbCAfYzac?si=XLNDwgBqiSOcdJ5i)] 
-  [[Poster](https://github.com/Event-AHU/HARDVS/blob/main/HARDVS_Poster.pdf)] 
+Shiao Wang, Xiao Wang, Bo Jiang, Lin Zhu, Guoqi Li, Yaowei Wang, Yonghong Tian, Jin Tang. "**Human Activity Recognition using RGB-Event based Sensors: A Multi-modal Heat Conduction Model and A Benchmark Dataset.**" arXiv preprint 	arXiv:2504.05830 (2025). 
+  [[arXiv](https://arxiv.org/abs/2504.05830)] 
 
 
 
