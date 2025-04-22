@@ -32,8 +32,13 @@ Human Activity Recognition (HAR) has long been a fundamental research direction 
 
 ### Demo
 
-**Representative samples of HARDVS can be found below:**
+* **Representative samples of HARDVS can be found below:**
 
+<p align="center">
+  <a href="">
+    <img src="https://github.com/Event-AHU/HARDVS/blob/HARDVSv2/pictures/Samples2.jpg" alt="Tutorials" width="700"/>
+  </a>
+</p>
 
 
 ### HAR Datasets
