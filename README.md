@@ -72,7 +72,7 @@ pip install -e .
 **An overview of our proposed MMHCO-HAR framework for multi-modal human action recognition.** we propose a novel heat conduction-based multi-modal learning framework for efficient and effective RGB-Event based human activity recognition. Concretely, we first adopt a stem network to transform the input RGB frames and event streams into corresponding feature embeddings. Then, the multi-modal HCO blocks are proposed to achieve RGB and event feature learning and interaction simultaneously. The core operation is the DCT-IDCT transformation network equipped with modality-specific continuous Frequency Value Embeddings (FVEs). After that, we explore a multi-modal fusion method with a policy routing mechanism to facilitate adaptive feature fusion. Finally, a classification head is employed to obtain the recognition results. Compared with existing mainstream multi-modal fusion algorithm frameworks, such as Transformer, our adoption of the computationally less complex heat conduction model achieves high accuracy while offering better computational efficiency and physical interpretability. Additionally, our newly proposed routing mechanism-guided multi-modal fusion strategy enables more effective integration of RGB-Event features.
 
 
-### Train & Test & Evaluation
+### Train & Test
 ```
 # train
   python tools/train.py configs/recognition/mmhco/mmhco.py --seed 0 --deterministic --work-dir work_dirs/mmhco_train
