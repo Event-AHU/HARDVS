@@ -29,34 +29,6 @@ Human Activity Recognition (HAR) has long been a fundamental research direction 
 ### News 
 
 
-### Demo Videos 
-
-* **A demo video for the HARDVS dataset can be found by clicking the image below:** 
-<p align="center">
-  <a href="https://youtu.be/AZsbCAfYzac?si=_Y6i17Pt-bg2v0WR">
-    <img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/hardvs_demo_screenshot.png" alt="DemoVideo" width="700"/>
-  </a>
-</p>
-
-
-* **Video Tutorial for this work can be found by clicking the image below:**
-<p align="center">
-  <a href="https://youtu.be/OvE53dJWzoo?si=BEHpiuqpNURV3JaG">
-    <img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/hardvs_tutorial_screeshot.png" alt="Tutorials" width="700"/>
-  </a>
-</p>
-
-
-* **Representative samples of HARDVS can be found below:**
-<p align="center">
-  <a href="">
-    <img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/HARDVS_all_samples.jpg" alt="Tutorials" width="700"/>
-  </a>
-</p>
-
-
-
-
 ### Dataset Download
 
 <img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/compareEventdatasets.png" width="800px" align="center">
