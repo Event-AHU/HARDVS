@@ -78,7 +78,7 @@ The main streams of human activity recognition (HAR) algorithms are developed ba
 
 * **Download from DropBox:**
 ```
-  To be updated ... 
+  https://www.dropbox.com/scl/fo/8ipo3ezz10coen0acefiu/APVXnfb7kbdv9eUqLuqxa6I?rlkey=oqzgm8237acit1kqglfr4h4lt&st=1zzo12f2&dl=0
 ```
 
 
