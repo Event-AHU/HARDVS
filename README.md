@@ -28,6 +28,8 @@ Human Activity Recognition (HAR) has long been a fundamental research direction 
 **(a).** Comparison between existing datasets and our proposed HARDVS 2.0 dataset for video classification. **(b).** A simple schematic diagram of our framework.
 
 ### News 
+* [2026-06-21] This paper is accepted by IJCV 2026!
+
 
 
 ### Demo
