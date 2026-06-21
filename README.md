@@ -1,10 +1,10 @@
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2211.09648)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2504.05830)
 
 <div align="center">
 
-<img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/HARDVS_logo.png" width="350px">
+<img src="https://github.com/Event-AHU/HARDVS/blob/HARDVSv2/pictures/HARDVSv2_log.png" width="350px">
   
-**HARDVS: Revisiting Human Activity Recognition with Dynamic Vision Sensors**
+**A Multi-modal Heat Conduction Model and A Benchmark Dataset for RGB-Event based HAR**
 
 ------
 
@@ -14,58 +14,38 @@
 </div>
 
 ### Paper
-Wang, Xiao and Wu, Zongzhen and Jiang, Bo and Bao, Zhimin and Zhu, Lin and Li, Guoqi and Wang, Yaowei and Tian, Yonghong. "**HARDVS: Revisiting Human Activity Recognition with Dynamic Vision Sensors.**" arXiv preprint arXiv:2211.09648 (2022). 
-  [[arXiv](https://arxiv.org/pdf/2211.09648)] 
-  [[Demovideo](https://youtu.be/AZsbCAfYzac?si=XLNDwgBqiSOcdJ5i)] 
-  [[Poster](https://github.com/Event-AHU/HARDVS/blob/main/HARDVS_Poster.pdf)] 
+Shiao Wang, Xiao Wang, Bo Jiang, Lin Zhu, Guoqi Li, Yaowei Wang, Yonghong Tian, Jin Tang. 
+"**Human Activity Recognition using RGB-Event based Sensors: A Multi-modal Heat Conduction Model and A Benchmark Dataset.**
+" arXiv preprint 	arXiv:2504.05830 (2025).  [[arXiv](https://arxiv.org/abs/2504.05830)] 
 
 
 
 ### Abstract
-The main streams of human activity recognition (HAR) algorithms are developed based on RGB cameras which are suffered from illumination, fast motion, privacy-preserving, and large energy consumption. Meanwhile, the biologically inspired event cameras attracted great interest due to their unique features, such as high dynamic range, dense temporal but sparse spatial resolution, low latency, low power, etc. As it is a newly arising sensor, even there is no realistic large-scale dataset for HAR. Considering its great practical value, in this paper, we propose a large-scale benchmark dataset to bridge this gap, termed HARDVS, which contains 300 categories and more than 100K event sequences. We evaluate and report the performance of multiple popular HAR algorithms, which provide extensive baselines for future works to compare. More importantly, we propose a novel spatial-temporal feature learning and fusion framework, termed ESTF, for event stream based human activity recognition. It first projects the event streams into spatial and temporal embeddings using StemNet, then, encodes and fuses the dual-view representations using Transformer networks. Finally, the dual features are concatenated and fed into a classification head for activity prediction. Extensive experiments on multiple datasets fully validated the effectiveness of our model. 
+Human Activity Recognition (HAR) has long been a fundamental research direction in the field of computer vision. Previous studies have primarily relied on traditional RGB cameras to achieve high-performance activity recognition. However, the challenging factors in real-world scenarios, such as insufficient lighting and rapid movements, inevitably degrade the performance of RGB cameras. To address these challenges, biologically inspired event cameras offer a promising solution to overcome the limitations of traditional RGB cameras. In this work, we rethink human activity recognition by combining the RGB and event cameras. The first contribution is the proposed large-scale multi-modal RGB-Event human activity recognition benchmark dataset, termed HARDVS 2.0, which bridges the dataset gaps. It contains 300 categories of everyday real-world actions with a total of 107,646 paired videos covering various challenging scenarios. Inspired by the physics-informed heat conduction model, we propose a novel multi-modal heat conduction operation framework for effective activity recognition, termed MMHCO-HAR. More in detail, given the RGB frames and event streams, we first extract the feature embeddings using a stem network. Then, multi-modal Heat Conduction blocks are designed to fuse the dual features, the key module of which is the multi-modal Heat Conduction Operation (HCO) layer. We integrate RGB and event embeddings through a multi-modal DCT-IDCT layer while adaptively incorporating the thermal conductivity coefficient via FVEs (Frequency Value Embeddings) into this module. After that, we propose an adaptive fusion module based on a policy routing strategy for high-performance classification. We conduct comprehensive experiments comparing our proposed method with baseline methods on the HARDVS 2.0 dataset and other public datasets. These results demonstrate that our method consistently performs well, validating its effectiveness and robustness.
 
-<img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/eventcompare.jpg" width="800px" align="center"> 
+<img src="https://github.com/Event-AHU/HARDVS/blob/HARDVSv2/pictures/first.png" width="800px" align="center"> 
 
+**(a).** Comparison between existing datasets and our proposed HARDVS 2.0 dataset for video classification. **(b).** A simple schematic diagram of our framework.
 
 ### News 
-* :fire: [2023.12.09] Our paper is accepted by AAAI-2024 !!!
-* :fire: [2023.05.29] The class label (i.e., category name) is available at [[HARDVS_300_class.txt](https://github.com/Event-AHU/HARDVS/blob/main/HARDVS_300_class.txt)]
-* :fire: [2022.12.14] HARDVS dataset is integrated into the SNN toolkit [[SpikingJelly](https://github.com/fangwei123456/spikingjelly/blob/master/spikingjelly/datasets/hardvs.py)]  
-
- 
+* [2026-06-21] This paper is accepted by IJCV 2026!
 
 
-### Demo Videos 
 
-* **A demo video for the HARDVS dataset can be found by clicking the image below:** 
-<p align="center">
-  <a href="https://youtu.be/AZsbCAfYzac?si=_Y6i17Pt-bg2v0WR">
-    <img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/hardvs_demo_screenshot.png" alt="DemoVideo" width="700"/>
-  </a>
-</p>
-
-
-* **Video Tutorial for this work can be found by clicking the image below:**
-<p align="center">
-  <a href="https://youtu.be/OvE53dJWzoo?si=BEHpiuqpNURV3JaG">
-    <img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/hardvs_tutorial_screeshot.png" alt="Tutorials" width="700"/>
-  </a>
-</p>
-
+### Demo
 
 * **Representative samples of HARDVS can be found below:**
+
 <p align="center">
   <a href="">
-    <img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/HARDVS_all_samples.jpg" alt="Tutorials" width="700"/>
+    <img src="https://github.com/Event-AHU/HARDVS/blob/HARDVSv2/pictures/Samples2.jpg" alt="Tutorials" width="700"/>
   </a>
 </p>
 
 
+### HAR Datasets
 
-
-### Dataset Download
-
-<img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/compareEventdatasets.png" width="800px" align="center">
+<img src="https://github.com/Event-AHU/HARDVS/blob/HARDVSv2/pictures/har_dataset.png" width="800px" align="center">
 
 
 * **Download from Baidu Disk**: 
@@ -88,36 +68,32 @@ The main streams of human activity recognition (HAR) algorithms are developed ba
 
 ### Environment 
 ```
-conda create -n event python=3.8 pytorch=1.10 cudatoolkit=11.3 torchvision -c pytorch -y
-conda activate event
-pip3 install openmim
-mim install mmcv-full
-mim install mmdet  # optional
-mim install mmpose  # optional
-pip3 install -e .
+conda create -n mmhco python=3.8 pytorch=1.12.1 cudatoolkit=11.3 torchvision -c pytorch -y
+conda activate mmhco
+pip install -U openmim
+mim install mmengine
+mim install mmcv
+pip install -e .
 ```
 
+**Details of each package:**
 
-
-Details of each package: 
-
-<img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/package.jpg" 
+<img src="https://github.com/Event-AHU/HARDVS/blob/HARDVSv2/pictures/package.png" 
   width="400px" >
 
-
 ### Our Proposed Approach 
-<img src="https://github.com/Event-AHU/HARDVS/blob/main/figures/spatialtempHAR.jpg" width="800px" align="center"> 
+<img src="https://github.com/Event-AHU/HARDVS/blob/HARDVSv2/pictures/HARDVS_extension_framework.jpg" width="800px" align="center"> 
 
-**An overview of our proposed ESTF framework for event-based human action recognition.** It transforms the event streams into spatial and temporal tokens and learns the dual features using multi-head self-attention layers. Further, a FusionFormer is proposed to realize message passing between the spatial and temporal features. The aggregated features are added with dual features as the input for subsequent TF and SF blocks, respectively. The outputs will be concatenated and fed into MLP layers for action prediction.
+**An overview of our proposed MMHCO-HAR framework for multi-modal human action recognition.** we propose a novel heat conduction-based multi-modal learning framework for efficient and effective RGB-Event based human activity recognition. Concretely, we first adopt a stem network to transform the input RGB frames and event streams into corresponding feature embeddings. Then, the multi-modal HCO blocks are proposed to achieve RGB and event feature learning and interaction simultaneously. The core operation is the DCT-IDCT transformation network equipped with modality-specific continuous Frequency Value Embeddings (FVEs). After that, we explore a multi-modal fusion method with a policy routing mechanism to facilitate adaptive feature fusion. Finally, a classification head is employed to obtain the recognition results. Compared with existing mainstream multi-modal fusion algorithm frameworks, such as Transformer, our adoption of the computationally less complex heat conduction model achieves high accuracy while offering better computational efficiency and physical interpretability. Additionally, our newly proposed routing mechanism-guided multi-modal fusion strategy enables more effective integration of RGB-Event features.
 
 
-### Train & Test & Evaluation
+### Train & Test
 ```
 # train
-  CUDA_VISIBLE_DEVICES=0 python tools/train.py configs/recognition/hardvs_ESTF/hardvs_ESTF.py --work-dir path_to_checkpoint --validate --seed 0 --deterministic --gpu-ids=0
+  python tools/train.py configs/recognition/mmhco/mmhco.py --seed 0 --deterministic --work-dir work_dirs/mmhco_train
 
 # test
-  CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/recognition/hardvs_ESTF/hardvs_ESTF.py  path_to_checkpoint --eval top_k_accuracy
+  python tools/test.py configs/recognition/mmhco/mmhco.py  path_to_checkpoint --eval top_k_accuracy
 ```
 
 
@@ -127,12 +103,11 @@ Details of each package:
 ### Citation
 If you find this work useful for your research, please cite the following paper and give us a :star2:.  
 ```bibtex
-@article{wang2022hardvs,
-  title={HARDVS: Revisiting Human Activity Recognition with Dynamic Vision Sensors},
-  author={Wang, Xiao and Wu, Zongzhen and Jiang, Bo and Bao, Zhimin and Zhu, Lin and Li, Guoqi and Wang, Yaowei and Tian, Yonghong},
-  journal={arXiv preprint arXiv:2211.09648},
-  url={https://arxiv.org/abs/2211.09648}, 
-  year={2022}
+@article{wang2025human,
+  title={Human Activity Recognition using RGB-Event based Sensors: A Multi-modal Heat Conduction Model and A Benchmark Dataset},
+  author={Wang, Shiao and Wang, Xiao and Jiang, Bo and Zhu, Lin and Li, Guoqi and Wang, Yaowei and Tian, Yonghong and Tang, Jin},
+  journal={arXiv preprint arXiv:2504.05830},
+  year={2025}
 }
 ```
 
@@ -140,6 +115,7 @@ If you find this work useful for your research, please cite the following paper 
 ### Acknowledgement and Other Useful Materials 
 * **MMAction2**: [https://github.com/open-mmlab/mmaction2](https://github.com/open-mmlab/mmaction2) 
 * **SpikingJelly**: [https://github.com/fangwei123456/spikingjelly](https://github.com/fangwei123456/spikingjelly)
+* **vHeat**: [https://github.com/MzeroMiko/vHeat](https://github.com/MzeroMiko/vHeat)
 
 
 

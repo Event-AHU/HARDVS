@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: mmaction2
+Version: 1.0.0
+Summary: OpenMMLab Video Understanding Toolbox and Benchmark
+Home-page: https://github.com/open-mmlab/mmaction2
+Author: MMAction2 Contributors
+Author-email: openmmlab@gmail.com
+Maintainer: MMAction2 Contributors
+Maintainer-email: openmmlab@gmail.com
+License: Apache License 2.0
+Keywords: computer vision,video understanding
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Provides-Extra: all
+Provides-Extra: tests
+Provides-Extra: optional
+Provides-Extra: mim
+
+UNKNOWN
+
